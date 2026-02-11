@@ -1,0 +1,64 @@
+
+.c-item{
+	height: 650px;
+	position: relative;
+}
+
+.c-img{
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(0.4);
+}
+
+.in-img{
+	width: 30% ;
+
+}
+.in-img img{
+	width: 100%;
+	border-radius: 35px;
+}
+
+.car {
+    position: absolute;
+    right: 8%;
+    bottom: 60px;
+    left: 16%;
+    text-align: left;
+}
+
+.in-text {
+    width: 50%;
+    position: absolute;
+    right: 24%;
+    bottom: 100px;
+    left: 39%;
+}
+
+.in-text h3 {
+    font-size: 75px;
+    /* font-family: "Dancing Script", cursive; */
+    color: #blue;
+    font-weight: 700;
+}
+.in-text p{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: 400;
+}
+
+.b-text {
+	margin-top: 15px;
+    padding: 11px 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: 2px solid #blue;
+}
+
+.b-text:hover{
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+}
